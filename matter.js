@@ -67,6 +67,7 @@ var Axes = _dereq_('../geometry/Axes');
      * @param {} options
      * @return {body} body
      */
+    Matter.Bodies.circle(x,y,radius,[options],[maxSides])
     Body.create = function(options) {
         var defaults = {
             id: Common.nextId(),
